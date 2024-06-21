@@ -86,7 +86,11 @@
 #define FINGERPRINT_LED_GRADUAL_OFF 0x06 //!< Gradually off
 #define FINGERPRINT_LED_RED 0x01         //!< Red LED
 #define FINGERPRINT_LED_BLUE 0x02        //!< Blue LED
-#define FINGERPRINT_LED_PURPLE 0x03      //!< Purple LEDpassword
+#define FINGERPRINT_LED_PURPLE 0x03      //!< Purple LED
+#define FINGERPRINT_LED_GREEN 0x04      //!< Purple LED
+#define FINGERPRINT_LED_YELLOW 0x05      //!< Purple LED
+#define FINGERPRINT_LED_CYAN 0x06      //!< Purple LED
+#define FINGERPRINT_LED_WHITE 0x07      //!< Purple LED
 
 #define FINGERPRINT_REG_ADDR_ERROR 0x1A //!< shows register address error
 #define FINGERPRINT_WRITE_REG 0x0E      //!< Write system register instruction
